@@ -1,0 +1,153 @@
+body {
+	overflow: hidden;
+}
+.container-fluid {
+	padding-right: 12px; padding-left: 12px;
+}
+.navbar-inner {
+	border-radius: 0px;
+}
+#pageheader {
+	color: rgb(238, 238, 238);
+}
+#pageheader {
+	padding: 8px 12px 0px; left: 0px; top: 0px; height: 40px; right: 0px; position: absolute; z-index: 10; min-height: 40px;
+}
+#pagefooter {
+	min-height: 40px;
+}
+#branding h1 {
+	color: rgb(238, 238, 238);
+}
+#branding h1 #R {
+	color: orange; font-weight: 700;
+}
+#branding #tagline {
+	color: rgb(153, 153, 153); font-size: 10pt;
+}
+#identity {
+	color: rgb(238, 238, 238);
+}
+#breadcrumb {
+	margin: 0px -10px; padding: 6px 10px; color: rgb(238, 238, 238); font-family: Helvetica; font-size: 13px; font-weight: bold; border-top-color: rgb(85, 85, 85); border-top-width: 1px; border-top-style: dotted;
+}
+#breadcrumb a {
+	color: inherit;
+}
+#payload {
+	left: 0px; top: 48px; right: 0px; bottom: 40px; position: absolute;
+}
+#payload iframe {
+	border: currentColor; border-image: none; width: 100%; height: 100%;
+}
+span#comment-verb-hide {
+	display: none;
+}
+#btn-show-toolbars {
+	right: 24px; bottom: 16px; visibility: hidden; position: absolute; opacity: 0; transition-delay: 250ms, 0s, 0s, 0s, 0s, 0s, 0s; -webkit-transition-delay: 250ms, 0, 0, 0, 0, 0, 0; -moz-transition-delay: 250ms, 0, 0, 0, 0, 0, 0;
+}
+#btn-show-toolbars:hover {
+	opacity: 1 !important; transition-delay: 250ms, 0s, 0s, 0s, 0s, 0s, 0s; -webkit-transition-delay: 250ms, 0, 0, 0, 0, 0, 0; -moz-transition-delay: 250ms, 0, 0, 0, 0, 0, 0;
+}
+#pubmeta #pubtitle {
+	max-width: 350px;
+}
+#pubmeta #pubtitle label {
+	font-weight: bold;
+}
+#pubmeta #pubtitle a {
+	font-weight: bold;
+}
+#pubmeta form {
+	margin-bottom: 0px;
+}
+#comment-wrapper {
+	top: 48px; width: 0px; right: 0px; bottom: 40px; border-left-color: rgb(204, 204, 204); border-left-width: 1px; border-left-style: solid; position: absolute; z-index: 5; -ms-overflow-x: hidden; transition-delay: 250ms, 0s, 0s, 0s, 0s, 0s, 0s; background-image: url("/assets/fabric_plaid-040a96509f29feaf17fa32c4c924ed45.png"); background-color: rgb(238, 238, 238); -webkit-transition-delay: 250ms, 0, 0, 0, 0, 0, 0; -moz-transition-delay: 250ms, 0, 0, 0, 0, 0, 0;
+}
+#disqus_thread {
+	margin: 0px !important; padding: 12px !important; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: auto; visibility: hidden; position: absolute;
+}
+#disqus_thread h3 {
+	font-size: 120%;
+}
+#disqus_thread #dsq-sort-by {
+	display: none;
+}
+body.show-comments #payload {
+	right: 400px;
+}
+body.show-comments span#comment-verb-hide {
+	display: inline;
+}
+body.show-comments #comment-wrapper {
+	width: 400px;
+}
+body.show-comments #disqus_thread {
+	visibility: visible;
+}
+#pageheader {
+	transition:visibility linear, top 250ms, bottom 250ms, right 250ms, height 250ms, width 250ms, opacity 250ms; -webkit-transition: visibility 0s linear 0s, top 250ms, bottom 250ms, right 250ms, height 250ms, width 250ms, opacity 250ms; -moz-transition: visibility 0s linear 0s, top 250ms, bottom 250ms, right 250ms, height 250ms, width 250ms, opacity 250ms;
+}
+#payload {
+	transition:visibility linear, top 250ms, bottom 250ms, right 250ms, height 250ms, width 250ms, opacity 250ms; -webkit-transition: visibility 0s linear 0s, top 250ms, bottom 250ms, right 250ms, height 250ms, width 250ms, opacity 250ms; -moz-transition: visibility 0s linear 0s, top 250ms, bottom 250ms, right 250ms, height 250ms, width 250ms, opacity 250ms;
+}
+#pagefooter {
+	transition:visibility linear, top 250ms, bottom 250ms, right 250ms, height 250ms, width 250ms, opacity 250ms; -webkit-transition: visibility 0s linear 0s, top 250ms, bottom 250ms, right 250ms, height 250ms, width 250ms, opacity 250ms; -moz-transition: visibility 0s linear 0s, top 250ms, bottom 250ms, right 250ms, height 250ms, width 250ms, opacity 250ms;
+}
+#comment-wrapper {
+	transition:visibility linear, top 250ms, bottom 250ms, right 250ms, height 250ms, width 250ms, opacity 250ms; -webkit-transition: visibility 0s linear 0s, top 250ms, bottom 250ms, right 250ms, height 250ms, width 250ms, opacity 250ms; -moz-transition: visibility 0s linear 0s, top 250ms, bottom 250ms, right 250ms, height 250ms, width 250ms, opacity 250ms;
+}
+#disqus_thread {
+	transition:visibility linear, top 250ms, bottom 250ms, right 250ms, height 250ms, width 250ms, opacity 250ms; -webkit-transition: visibility 0s linear 0s, top 250ms, bottom 250ms, right 250ms, height 250ms, width 250ms, opacity 250ms; -moz-transition: visibility 0s linear 0s, top 250ms, bottom 250ms, right 250ms, height 250ms, width 250ms, opacity 250ms;
+}
+#btn-show-toolbars {
+	transition:visibility linear, top 250ms, bottom 250ms, right 250ms, height 250ms, width 250ms, opacity 250ms; -webkit-transition: visibility 0s linear 0s, top 250ms, bottom 250ms, right 250ms, height 250ms, width 250ms, opacity 250ms; -moz-transition: visibility 0s linear 0s, top 250ms, bottom 250ms, right 250ms, height 250ms, width 250ms, opacity 250ms;
+}
+body.hide-toolbars #pageheader {
+	visibility: hidden; transition-delay: 250ms, 0s, 0s, 0s, 0s, 0s, 0s; -webkit-transition-delay: 250ms, 0, 0, 0, 0, 0, 0; -moz-transition-delay: 250ms, 0, 0, 0, 0, 0, 0;
+}
+body.hide-toolbars #pagefooter {
+	visibility: hidden; transition-delay: 250ms, 0s, 0s, 0s, 0s, 0s, 0s; -webkit-transition-delay: 250ms, 0, 0, 0, 0, 0, 0; -moz-transition-delay: 250ms, 0, 0, 0, 0, 0, 0;
+}
+body.hide-toolbars #comment-wrapper {
+	visibility: hidden; transition-delay: 250ms, 0s, 0s, 0s, 0s, 0s, 0s; -webkit-transition-delay: 250ms, 0, 0, 0, 0, 0, 0; -moz-transition-delay: 250ms, 0, 0, 0, 0, 0, 0;
+}
+body.hide-toolbars #disqus_thread {
+	visibility: hidden; transition-delay: 250ms, 0s, 0s, 0s, 0s, 0s, 0s; -webkit-transition-delay: 250ms, 0, 0, 0, 0, 0, 0; -moz-transition-delay: 250ms, 0, 0, 0, 0, 0, 0;
+}
+body.hide-toolbars #pageheader {
+	top: -53px;
+}
+body.hide-toolbars #payload {
+	top: 0px; right: 0px; bottom: 0px;
+}
+body.hide-toolbars #pagefooter {
+	height: 0px; bottom: -40px;
+}
+body.hide-toolbars #comment-wrapper {
+	top: 0px; width: 0px; bottom: 0px;
+}
+body.hide-toolbars #disqus_thread {
+	visibility: hidden;
+}
+body.hide-toolbars #btn-show-toolbars {
+	visibility: visible; opacity: 0.3;
+}
+body.show-toolbars #btn-show-toolbars {
+	opacity: 0 !important;
+}
+#modal-share {
+	width: 450px;
+}
+#modal-share h2 {
+	margin: 16px 0px 0px;
+}
+#modal-share h2.first {
+	margin: 0px;
+}
+#modal-share .btn {
+	margin-right: 6px;
+}
+#modal-share input {
+	width: 375px;
+}
